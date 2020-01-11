@@ -1,3 +1,260 @@
 <resources>
     <string name="app_name">Zanche</string>
+    <string name="shr_hint_shinpuname">神符名</string>
+    <string name="shr_hint_number">数量</string>
+
+    <string name="shr_hint_password">Password</string>
+    <string name="shr_button_confirm">確定</string>
+    <string name="shr_button_next">次の10件</string>
+    <string name="shr_button_shinpu">神符一覧表</string>
+    <string name="shr_button_copy">Copy</string>
+    <string name="shr_error_password">Password must contain at least 8 characters.</string>
+    <string name="shr_filter_title">Filter</string>
+    <string name="shr_search_title">Search</string>
+    <string name="shr_product_title">Title</string>
+    <string name="shr_product_description">Secondary text</string>
+
+    <!-- Shrine backdrop menu labels -->
+    <string name="shr_featured_label">Featured</string>
+    <string name="shr_apartment_label">Apartment</string>
+    <string name="shr_accessories_label">Accessories</string>
+    <string name="shr_shoes_label">Shoes</string>
+    <string name="shr_tops_label">Tops</string>
+    <string name="shr_bottoms_label">Bottoms</string>
+    <string name="shr_dresses_label">Dresses</string>
+    <string name="shr_account_label">My Account</string>
+    <string name="shr_logo_content_description">Shrine Logo</string>
+
+    <string-array name="shinpuList">
+        <item>名称</item>
+        <item>神宮大麻</item>
+        <item>木札大商売</item>
+        <item>木札大社運</item>
+        <item>木札 中</item>
+        <item>木札 小</item>
+        <item>紙札</item>
+        <item>方違札</item>
+        <item>大海札</item>
+        <item>船玉木札 中</item>
+        <item>船玉 木札</item>
+        <item>船玉 紙札</item>
+        <item>星宮荒神札</item>
+        <item>厄除祈願</item>
+        <item>身代守 赤</item>
+        <item>身代守 紺</item>
+        <item>身代守 紫</item>
+        <item>身代守 赤白</item>
+        <item>身代守 紺水</item>
+        <item>錦守</item>
+        <item>木札守</item>
+        <item>魔除守（国宝古材）</item>
+        <item>除災招福守</item>
+        <item>御祓守</item>
+        <item>御祓鈴守</item>
+        <item>うさぎお祓い守</item>
+        <item>花幸守ブルー</item>
+        <item>花幸守ブルピン</item>
+        <item>七彩守</item>
+        <item>厄除守</item>
+        <item>病気平癒守</item>
+        <item>身体健全守 朱</item>
+        <item>身体健全守 緑</item>
+        <item>長寿守 赤</item>
+        <item>長寿守 紫</item>
+        <item>安産守 ピンク</item>
+        <item>安産守 白</item>
+        <item>安産子まもり(赤)</item>
+        <item>安産子まもり(紫)</item>
+        <item>子まもり</item>
+        <item>こども守 ピンク</item>
+        <item>こども守 ブルー</item>
+        <item>ランドセル守 赤</item>
+        <item>ランドセル守 黒</item>
+        <item>学業守</item>
+        <item>合格守</item>
+        <item>合格祈願</item>
+        <item>勾玉腕守 大</item>
+        <item>勾玉腕守 小</item>
+        <item>五大力守</item>
+        <item>開運槌守</item>
+        <item>福守　金</item>
+        <item>福守　赤</item>
+        <item>水琴福鈴守（金）</item>
+        <item>水琴福鈴守（銀）</item>
+        <item>常勝守 青</item>
+        <item>常勝守 黒</item>
+        <item>仕事守</item>
+        <item>就職守</item>
+        <item>御車守 赤</item>
+        <item>御車守 紺</item>
+        <item>御車守 黄</item>
+        <item>御車守 緑</item>
+        <item>交通マリ 赤</item>
+        <item>交通マリ 紫</item>
+        <item>交通マリ 黄</item>
+        <item>交通マリピンク</item>
+        <item>交通マリオレンジ</item>
+        <item>交通マリブルー</item>
+        <item>二輪車守</item>
+        <item>交通安全守</item>
+        <item>交通錦守</item>
+        <item>ステッカー</item>
+        <item>旅行安全ピンク</item>
+        <item>旅行安全ブルー</item>
+        <item>潮満珠潮干珠守</item>
+        <item>水難除</item>
+        <item>釣人守</item>
+        <item>釣人ルアー 青</item>
+        <item>釣人ルアー 赤白</item>
+        <item>釣人ルアー 黄</item>
+        <item>釣人ルアー オレンジ</item>m>
+        <item>釣人ルアー 茶</item>
+        <item>釣人ルアー ピンク</item>
+        <item>うさぎ幸福守</item>
+        <item>うさぎ水引守</item>
+        <item>うさぎ守 金</item>
+        <item>うさぎ守 銀</item>
+        <item>良縁守ピンク</item>
+        <item>良縁守ブルー</item>
+        <item>侍者守</item>
+        <item>美咲守 白</item>
+        <item>美咲守 黄緑</item>
+        <item>美咲守 黒</item>
+        <item>浅澤守</item>
+        <item>種銭守</item>
+        <item>発達守</item>
+        <item>大歳守</item>
+        <item>商運御守護</item>
+        <item>当年守</item>
+        <item>干支水晶守 子</item>
+        <item>干支水晶守 丑</item>
+        <item>干支水晶守 寅</item>
+        <item>干支水晶守 卯</item>
+        <item>干支水晶守 辰</item>
+        <item>干支水晶守 巳</item>
+        <item>干支水晶守 午</item>
+        <item>干支水晶守 未</item>
+        <item>干支水晶守 申</item>
+        <item>干支水晶守 酉</item>
+        <item>干支水晶守 戌</item>
+        <item>干支水晶守 亥</item>
+        <item>しあわせ干支 子</item>
+        <item>しあわせ干支 丑</item>
+        <item>しあわせ干支 寅</item>
+        <item>しあわせ干支 卯</item>
+        <item>しあわせ干支 辰</item>
+        <item>しあわせ干支 巳</item>
+        <item>しあわせ干支 午</item>
+        <item>しあわせ干支 未</item>
+        <item>しあわせ干支 申</item>
+        <item>しあわせ干支 酉</item>
+        <item>しあわせ干支 戌</item>
+        <item>しあわせ干支 亥</item>
+        <item>干支絵馬</item>
+        <item>住吉絵馬</item>
+        <item>宝船絵馬</item>
+        <item>侍者絵馬</item>
+        <item>合格絵馬</item>
+        <item>朱印帳 紺</item>
+        <item>朱印帳 ピンク</item>
+        <item>朱印帳 ブルー</item>
+        <item>朱印帳袋 ピ</item>
+        <item>朱印帳袋 ブ</item>
+        <item>略記</item>
+        <item>絵葉書</item>
+        <item>文鎮 大</item>
+        <item>文鎮 小</item>
+        <item>侍者人形</item>
+        <item>裸雛</item>
+        <item>種貸人形</item>
+        <item>睦犬（腰痛除）</item>
+        <item>厄除ざる</item>
+        <item>狛犬</item>
+        <item>千疋猿</item>
+        <item>土人形 子</item>
+        <item>十二支土人形</item>
+        <item>子宝祈願</item>
+        <item>安産帯</item>
+        <item>大漁旗赤 大</item>
+        <item>大漁旗青 大</item>
+        <item>大漁旗赤 小</item>
+        <item>大漁旗青 小</item>
+        <item>住吉暦</item>
+        <item>神宮大麻 大</item>
+        <item>住吉造神棚</item>
+        <item>神棚 小</item>
+        <item>木札大用神札掛</item>
+        <item>木札中用神札掛</item>
+        <item>木札小用神札掛</item>
+        <item>箱守</item>
+        <item>特別神矢</item>
+        <item>特大矢</item>
+        <item>矢大</item>
+        <item>御祓矢</item>
+        <item>黄金矢</item>
+        <item>矢用鈴</item>
+        <item>矢用張子</item>
+        <item>陶製干支</item>
+        <item>干支土鈴</item>
+        <item>干支張子</item>
+        <item>福鈴</item>
+        <item>おはらい干支置物</item>
+        <item>木彫 大</item>
+        <item>木彫 小</item>
+        <item>干支石吉兆</item>
+        <item>稲蓬莱</item>
+        <item>住吉踊 大</item>
+        <item>住吉踊 小</item>
+        <item>綿の花</item>
+        <item>千歳飴</item>
+        <item>歳重祝豆</item>
+        <item>竹駒守</item>
+        <item>竹駒特大</item>
+        <item>神馬札</item>
+        <item>神馬木札</item>
+        <item>神馬守</item>
+        <item>神馬守（カード）</item>
+        <item>方違守</item>
+        <item>神楽女守</item>
+        <item>特別勾玉腕守</item>
+        <item>家内安全御守</item>
+        <item>筒守</item>
+        <item>反橋絵馬</item>
+        <item>トラックステッカー</item>
+        <item>御祓守（夏）</item>
+        <item>安全旗</item>
+        <item>掛軸 大</item>
+        <item>掛軸 小</item>
+        <item>五所御前切札</item>
+        <item>種貸札</item>
+        <item>種貸守</item>
+        <item>種貸絵馬</item>
+        <item>浅澤札</item>
+        <item>大歳札</item>
+        <item>特別授与品</item>
+        <item>勾玉御守（翡翠）</item>
+        <item>翡翠勾玉腕守</item>
+        <item>住吉神兎腕守</item>
+        <item>翡翠神兎御守</item>
+        <item>神兎 大</item>
+        <item>神兎 中</item>
+        <item>神兎 夫婦</item>
+        <item>水引 卯の花</item>
+        <item>国宝本宮木札守</item>
+        <item>箱入 国宝木札守</item>
+        <item>一寸法師守金</item>
+        <item>一寸法師守ピ</item>
+        <item>楯懸魚銅板 大</item>
+        <item>大海守</item>
+        <item>干支守キラキラ 金</item>
+        <item>干支守キラキラ 銀</item>
+        <item>干支守カード</item>
+        <item>土人形型干支守(子)</item>
+        <item>七色干支御守</item>
+        <item>水引干支守</item>
+        <item>硝子干支置物</item>
+        <item>勾玉守（赤）</item>
+        <item>勾玉守（緑）</item>
+        <item>勾玉守（ピンク）</item>
+    </string-array>
 </resources>
